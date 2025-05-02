@@ -165,14 +165,14 @@ input, textarea {
 
 ::selection {
   background: var(--aqua-teal-1);
-  color: var(--smoky-black);
+  color: #f0f5ff;;
 }
 
 :focus { outline-color: var(--aqua-teal-1); }
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: #f0f5ff; }
 
 
 
@@ -185,7 +185,7 @@ body { background: var(--smoky-black); }
 .sidebar,
 article {
   background: white;
-  border: 1px solid var(--jet);
+  border: 1.5px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -484,11 +484,11 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background:  hsl(234deg 23.26% 16.86%);
+  background:  hsl(173, 50%, 57%);
   /*background: hsl(253.68, 24.68%, 40%); /* purple */
   /* background: hsl(213.68, 24.68%, 40%); /* blue */
   backdrop-filter: blur(10px);
-  border: 1px solid hsl(233deg 16% 18% / 0%);
+  border:0.5px solid hsl(233.68, 24.68%, 15.10%);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
@@ -503,16 +503,16 @@ main {
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  color: black;
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: #fdfdfd; }
 
-.navbar-link.active { color: var(--aqua-teal-1); }
+.navbar-link.active { color: #fdfdfd; }
 
 
 
@@ -525,7 +525,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--light-gray);
+  color: black;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -782,7 +782,7 @@ main {
   height: auto;
   max-width: 50%;
   max-height: 50%;
-  filter: grayscale(1);
+
   transition: var(--transition-1);
 }
 
