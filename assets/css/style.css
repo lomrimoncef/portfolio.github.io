@@ -781,8 +781,8 @@ main {
 .techstack-item img {
   width: auto;
   height: auto;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 60%;
+  max-height: 60%;
   filter: blur(1);
   transition: var(--transition-1);
 }
@@ -2085,14 +2085,22 @@ color: var(--aqua-teal-1) }
 
 .carousel-caption {
   position: absolute;
-  bottom: 15px;
+  bottom: 0;
   left: 0;
   right: 0;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  font-size: 1rem;
-  font-weight: 500;
+  padding: 20px 25px;
+  background: rgba(0, 0, 0, 0.65); /* Dark semi-transparent background */
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  backdrop-filter: blur(4px); /* Optional glass-like blur */
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
+
+
+
